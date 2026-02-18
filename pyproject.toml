@@ -1,0 +1,18 @@
+[project]
+name = "examhelper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "firecrawl-py>=4.14.1",
+    "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-google-genai>=4.2.0",
+    "langchain-openai>=1.1.9",
+    "langgraph>=1.0.8",
+    "openai>=2.21.0",
+    "pydantic>=2.12.5",
+    "structlog>=25.5.0",
+]
