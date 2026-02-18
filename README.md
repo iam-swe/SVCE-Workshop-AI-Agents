@@ -92,7 +92,8 @@ source .venv/bin/activate
 
 If blocked:
 
-```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\.venv\Scripts\Activate.ps1
 ```
 
@@ -125,7 +126,7 @@ copy .env.example .env
 Fill in the following in the .env file:
 
 ```
-GEMINI_API_KEY=your_google_ai_studio_key
+GOOGLE_API_KEY=your_google_ai_studio_key
 FIRECRAWL_API_KEY=your_firecrawl_key
 ```
 
